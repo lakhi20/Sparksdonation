@@ -22,7 +22,7 @@ margin-top: -5px;
 } */
 
 header{
-    background-image: url(../images/img1.jpg);
+    background-image: url(images/img1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -190,7 +190,7 @@ padding: 10px;
 
 .footer {
 	width: 100%;
-	background-image: url(../images/img00.png);
+	background-image: url(images/img00.png);
 	display: block;
     
  }
