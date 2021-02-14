@@ -97,7 +97,7 @@ height: 100vh;
 
 .main-text{
     color: #fff;
-    font-size: 240%;
+    /* font-size: 240%; */
     word-spacing: 1px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -165,9 +165,12 @@ padding: 10px;
 .aboutus{
     background-color: #8f5b8f;
     height: 400px;
-    text-align: center;
+    text-align: justify;
     border: 1px solid black;
     padding: 30px 
+}
+.head{
+    text-align: center;
 }
 
 #programs{
@@ -179,7 +182,9 @@ padding: 10px;
 .carousel-item{
     padding: 2% 2%;
  }
-
+.head1{
+    text-transform: uppercase;
+}
 
 
 
