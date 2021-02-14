@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 24px;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+
+}
+/* .hr{
+    background-color: rgb(238, 212, 212);
+margin-top: -5px;
+} */
+
+header{
+    background-image: url(../images/img1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+}
+
+.bow{
+    max-width:  1180px;
+    margin: 0 auto;
+}
+
+.logoo{
+    height:100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.logoo:hover{
+    transform: scale(1.5);
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color:#fff ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120%;
+    padding: 5px 0px;
+    
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid violet;
+
+
+}
+
+.cflearfix::after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both
+    ;
+}
+.main-contentt{
+    width: px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 85px;
+}
+
+.main-cont{
+    margin-bottom: 20px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.main-text{
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+/* p{
+    color: #fff;
+}
+h1{
+    color: #fff;
+} */
+.btn-ret{
+/* display: inline-block;
+padding: 10px 30px;
+font-weight: bolder;
+text-transform: uppercase;
+text-decoration: none; */
+margin-left: 85px;
+padding: 10px;
+
+}
+ .btn-full{
+     background-color:rgb(205, 231, 218);
+     color: rgb(25, 27, 1);
+     border: 5px solid rgb(37, 3, 32);
+ }
+ .btn-full:hover{
+     background-color: #fff;
+ }
+     
+ .anim{
+     animation: colorchangedon 1s infinite;
+     margin-left: 30px;
+
+ }
+@keyframes colorchangedon{
+    0%{color: red;}
+    25%{color: violet;}
+    50%{color: white;}
+    100%{color:violet ;}
+
+}
+
+.pico{
+    height: 400px;
+    width: 100%;
+    
+}
+.roounded{
+    border-radius: 80px;
+}
+.picgallary{
+    height: 400px;
+    width: 700px;
+    margin-right: 20px;
+    float: right;
+    border-radius:2%;
+    margin-top: 50px;
+    
+}
+.icon{
+    color: rgb(201, 204, 27);
+}
+
+.aboutus{
+    background-color: #8f5b8f;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px 
+}
+
+#programs{
+    
+    text-align: center;
+    background-color: #8f5b8f;
+    color: #fff;
+}
+.carousel-item{
+    padding: 2% 2%;
+ }
+
+
+
+
+.footer {
+	width: 100%;
+	background-image: url(../images/img00.png);
+	display: block;
+    
+ }
+
+ .inner-footer {
+	 width: 95%;
+	 margin: auto;
+	 padding: 30px 10px;
+	 display: flex;
+	 flex-wrap: wrap;
+	 box-sizing: border-box;
+	 justify-content: center;
+ }
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.footer-items p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: #fff;
+}
+
+.footer-items h1 {
+	color: #fff;
+}
+
+.border1 {
+	height: 3px;
+	width: 40px;
+	background: #ff9800;
+	color: #ff9800;
+	background-color: #ff9800;
+	border: 0px;
+}
+
+ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;	
+ }
+
+ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color: #ff9800;
+}
+
+ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+li i {
+	margin-right: 20px;
+}
+
+.social-media {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media i {
+	height: 25px;
+	width: 25px;
+	margin: 20px 10px;
+	padding: 4px;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.social-media i:hover {
+	transform: scale(1.5);
+}
+
+.footer-bottom {
+	padding: 10px;
+	background: #00121b;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+
+/* for tablet mode view */
+
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
+	}
+}
+
+/* for mobile screen view */
+
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+
+/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
+
+/* Thanks to Computer Conversations */
+
+
