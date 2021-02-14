@@ -163,10 +163,10 @@ padding: 10px;
 }
 
 .aboutus{
-    background-color: #8f5b8f;
+    background-image: url(images/img03.png);
     height: 400px;
     text-align: justify;
-    border: 1px solid black;
+    
     padding: 30px 
 }
 .head{
@@ -176,7 +176,7 @@ padding: 10px;
 #programs{
     
     text-align: center;
-    background-color: #8f5b8f;
+    background-image: url(images/img02.png);
     color: #fff;
 }
 .carousel-item{
