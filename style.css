@@ -1,4 +1,8 @@
-*{
+
+
+
+
+    *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,9 +10,10 @@
 }
 
 body{
-    font-size: 24px;
+    font-size: 1.40vw;
     overflow-x: hidden;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -16,10 +21,6 @@ nav{
     
 
 }
-/* .hr{
-    background-color: rgb(238, 212, 212);
-margin-top: -5px;
-} */
 
 header{
     background-image: url(images/img1.jpg);
@@ -41,7 +42,7 @@ height: 100vh;
     margin-top: 20px;
 }
 .logoo:hover{
-    transform: scale(1.5);
+    transform: scale(1.20);
 }
 .main-nav{
     float: right;
@@ -103,30 +104,22 @@ height: 100vh;
     text-transform: capitalize;
     font-weight: lighter;
 }
-/* p{
-    color: #fff;
-}
-h1{
-    color: #fff;
-} */
+
 .btn-ret{
-/* display: inline-block;
+display: inline-block;
 padding: 10px 30px;
 font-weight: bolder;
 text-transform: uppercase;
-text-decoration: none; */
-margin-left: 85px;
+text-decoration: none;
+margin-left: 140px;
 padding: 10px;
+border-radius: 20px;
 
 }
- .btn-full{
-     background-color:rgb(205, 231, 218);
-     color: rgb(25, 27, 1);
-     border: 5px solid rgb(37, 3, 32);
- }
- .btn-full:hover{
-     background-color: #fff;
- }
+.btn-ret:hover{
+    transform: scale(1.25);
+}
+
      
  .anim{
      animation: colorchangedon 1s infinite;
@@ -140,6 +133,50 @@ padding: 10px;
     100%{color:violet ;}
 
 }
+
+.mobile-icon{
+    display: none;
+}
+
+/* responsive view */
+
+@media only screen and ( max-width:1180px){
+    .main-contentt{
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+@media only screen and ( max-width:998px){
+    h1{
+        font-size: 200%;
+    }
+}
+
+@media only screen and ( max-width:768px){
+    h1{font-size: 180%;  }
+        
+   .main-nav{display: none;  }
+
+  
+    .mobile-icon{ display: inline-block;
+        color: #fff;
+        float: right;
+         margin-top: 30px;
+         margin-right:20px ;
+    }
+        
+    .main-nav li{
+       display: block;
+        margin-top: 10px;
+    }
+    .main-nav{ float: left;}
+       
+    
+}
+
+@media only screen and ( max-width:480px){}
+
+
 
 .pico{
     height: 400px;
@@ -167,7 +204,7 @@ padding: 10px;
     height: 400px;
     text-align: justify;
     
-    padding: 30px 
+    padding: 35px ;
 }
 .head{
     text-align: center;
@@ -178,6 +215,7 @@ padding: 10px;
     text-align: center;
     background-image: url(images/img02.png);
     color: #fff;
+    padding-bottom: 50px;
 }
 .carousel-item{
     padding: 2% 2%;
@@ -307,8 +345,8 @@ li i {
 	}
 }
 
-/* you can toggle the media screen view accordingly by changing the (max-width: px) to your convenience */
 
-/* Thanks to Computer Conversations */
+
+
 
 

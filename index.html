@@ -5,12 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Sparks Foundation</title>
-  <link rel="stylesheet" href="style.css">
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="https://kit.fontawesome.com/83d540ddfa.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+      </style>
+
+   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,13 +26,13 @@
     <nav>
       <div class="bow  cflearfix">
         <img src="images/logo.png" alt="logo" class="logoo">
-        <ul class="main-nav animate__animated animate__slideInDown">
+        <ul class="main-nav animate__animated animate__slideInDown" id="check-class">
           <li><a href="#about-us">About Us</a></li>
           <li><a href="#programs">Policies</a></li>
           <li><a href="#programs">Programs</a></li>
           <li><a href="#footerr">Contact Us </a></li>
         </ul>
-
+           <a href="#" class="mobile-icon" onclick="slidedown()"  ><i class="fas fa-bars"></i></a>
       </div>
     </nav>
     <hr class="hr">
@@ -54,7 +62,7 @@
 
         Join us in this mission to ensure that every child in our country has access to nutritious food.
 
-        Your support for a child’s nutritional growth will:GiveIndia partners with the most credible nonprofits to make
+        Your support for a child’s nutritional growth will,partners with the most credible nonprofits to make
         sure your donation does what it is supposed to - change lives.
 
         Join us in this mission to ensure that every child in our country has access to nutritious food.
@@ -87,17 +95,17 @@
         <div class="carousel-inner caro">
           <div class="carousel-item active">
             <h2 class="text-white head1">To educate girls is to reduce poverty</h2>
-            <img src="images/img2.jpg" alt="Los Angeles" width="70%" height="500">
+            <img src="images/img2.jpg" alt="Los Angeles" width="60%" height="400">
           </div>
           <div class="carousel-item">
             <h2 class="text-white head1">Education is the passport to the future,
               for tomorrow belongs to those who prepare for it today.</h2>
-            <img src="images/img4.jpg" alt="Chicago" width="70%" height="500">
+            <img src="images/img4.jpg" alt="Chicago" width="60%" height="400">
           </div>
           <div class="carousel-item">
             <h2 class="text-white head1"> Women education is very important for the proper social and economic growth of the
               country</h2>
-            <img src="images/img6.jpg" alt="New York" width="70%" height="500">
+            <img src="images/img6.jpg" alt="New York" width="60%" height="400">
           </div>
         </div>
 
@@ -209,7 +217,18 @@
 
 
 
+<script type="text/javascript">
+function slidedown(){
+  var x=document.getElementById("check-class");
+  if(x.style.display==="none"){
+    x.style.display="block";}
+    else{
+      x.style.display="none"
+    }
+  }
 
+
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
