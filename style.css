@@ -352,7 +352,7 @@ li i {
 	text-align: center;
 }
 
-/* for tablet mode view */
+
 
 @media screen and (max-width: 1275px) {
 	.footer-items {
@@ -366,7 +366,7 @@ li i {
     }
 }
 
-/* for mobile screen view */
+
 
 @media screen and (max-width: 660px) {
 	.footer-items {
